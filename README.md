@@ -3,7 +3,7 @@
 ## Overview
 This project compares GPU and CPU performance for running 
 computer vision model inference using YOLOv8n.
-Built as part of Phase 3 (Production Concepts) of my AI/ML internship.
+
 
 ## What This Project Does
 - Runs YOLOv8n object detection on a test image using CPU
