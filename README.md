@@ -9,7 +9,6 @@ Built as part of Phase 3 (Production Concepts) of my AI/ML internship.
 - Runs YOLOv8n object detection on a test image using CPU
 - Measures inference time in milliseconds
 - Outputs structured JSON with hardware info and recommendation
-- Includes a full research document comparing GPU vs CPU
 
 ## Output Example
 {
@@ -22,7 +21,6 @@ Built as part of Phase 3 (Production Concepts) of my AI/ML internship.
 | File | Description |
 |------|-------------|
 | inference_task.py | Main script — runs YOLOv8n and measures inference time |
-| GPU_vs_CPU_Inference_Report.docx | Research document with comparison table and recommendation |
 | test.jpg | Sample image used for inference |
 
 ## How to Run
@@ -33,13 +31,9 @@ Built as part of Phase 3 (Production Concepts) of my AI/ML internship.
 ## Key Findings
 - CPU inference: 80.4ms per image
 - GPU inference: 0.99ms per image
-- GPU is 81x faster — recommended for IntelliView production
+- GPU is 81x faster — recommended for real-time production use
 
 ## Tech Stack
 - Python
 - YOLOv8n (Ultralytics)
 - uv (package manager)
-
-## Internship Info
-Task ID: CV12 | Phase 3 — Production Concepts
-Assignee: Manya Babbar
