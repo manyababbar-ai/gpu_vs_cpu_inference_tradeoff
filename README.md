@@ -20,6 +20,7 @@ computer vision model inference using YOLOv8n.
 ## Files
 | File | Description |
 |------|-------------|
+| inference_demo.py | Demo showing CPU and GPU inference with error handling |
 | inference_task.py | Main script — runs YOLOv8n and measures inference time |
 | test.jpg | Sample image used for inference |
 
