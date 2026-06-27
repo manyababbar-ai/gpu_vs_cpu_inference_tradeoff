@@ -1,7 +1,7 @@
 [project]
 name = "task2"
 version = "0.1.0"
-description = "Add your description here"
+description = "GPU vs CPU Inference Tradeoff"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
