@@ -8,8 +8,8 @@ results = model.predict(image)
 end = time.perf_counter()
 inference_time = (end - start) * 1000
 output= {
-    'inference_time_ms': inference_time,
-    'hardware_used': 'cpu' ,
-    'recommendation': 'use GPU for production' 
+    "inference_time_ms": inference_time,
+    "hardware_used": 'cpu' ,
+    "recommendation": 'use GPU for production' 
 }
 print(json.dumps(output,indent=4))
